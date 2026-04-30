@@ -21,12 +21,12 @@ out/
 # ─── Test & coverage ─────────────────────────────────────────────────────────
 coverage/
 .nyc_output/
-# Uncomment the lines below if you want to exclude test files from the repo
-# **/__tests__/
-# **/*.test.ts
-# **/*.spec.ts
-# **/*.test.tsx
-# **/*.spec.tsx
+Uncomment the lines below if you want to exclude test files from the repo
+**/__tests__/
+**/*.test.ts
+**/*.spec.ts
+**/*.test.tsx
+**/*.spec.tsx
 
 # ─── Logs ────────────────────────────────────────────────────────────────────
 logs/
