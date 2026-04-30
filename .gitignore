@@ -1,0 +1,53 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Environment / Secrets ───────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+# Keep .env.example (it lists keys without values — safe to commit)
+!.env.example
+
+# ─── Build outputs ───────────────────────────────────────────────────────────
+dist/
+build/
+out/
+
+# ─── TypeScript cache ────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Test & coverage ─────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+# Uncomment the lines below if you want to exclude test files from the repo
+# **/__tests__/
+# **/*.test.ts
+# **/*.spec.ts
+# **/*.test.tsx
+# **/*.spec.tsx
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── OS / Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ─── Kiro IDE ────────────────────────────────────────────────────────────────
+.kiro/
+
+# ─── Vite ────────────────────────────────────────────────────────────────────
+frontend/.vite/
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.local
