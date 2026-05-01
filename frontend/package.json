@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "npx serve dist --single --listen $PORT",
+    "start": "serve dist --single",
     "test": "vitest run",
     "test:watch": "vitest"
   },

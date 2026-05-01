@@ -7,7 +7,7 @@ import type { Project } from '../types'
  */
 export async function getProjects(): Promise<Project[]> {
   const response = await axiosClient.get<Project[]>('/api/projects')
-  return response.data
+  return Array.isArray(response.data) ? response.data : []
 }
 
 /**

@@ -10,7 +10,7 @@ export async function getTasks(projectId: string): Promise<Task[]> {
   const response = await axiosClient.get<Task[]>(
     `/api/tasks/project/${projectId}`
   )
-  return response.data
+  return Array.isArray(response.data) ? response.data : []
 }
 
 /**
